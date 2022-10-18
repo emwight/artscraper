@@ -13,7 +13,7 @@ Additionally, check back in by November 9th for an EDA of these art crimes!
 
 **crimeCategory:** General type of art piece stolen, such as painting, sculpture, and book
 
-**materials:** Within each general category, the materials used to make the art piece. Painting, for example, includes materials oil paint, board, canvas, and wood
+**materials:** Within each general category, the materials used to make the art piece. Painting, for example, includes oil paint, board, canvas, and wood
 
 **period:** The century the art piece was created
 
