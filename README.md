@@ -2,7 +2,7 @@
 This repository contains code used to collect and clean data from the [FBI art crimes API](https://api.fbi.gov/docs#!/) and the resulting dataset. All information obtained from the API is public and can also be accessed through the [National Stolen Art File](https://www.fbi.gov/investigate/violent-crime/art-theft/national-stolen-art-file).
 
 ## Collection and Cleaning Process
-Randomly sampled pages from the API created the initial dataset, which went through extensive cleaning to create the stolen_art csv. For a more extensive explanation of the process, see my blog post!(ADD LINK)
+I randomly sampled pages through API created the initial dataset, then went through extensive cleaning to create the stolen_art csv. For a more extensive explanation of the process, see my blog post!(ADD LINK)
 
 Additionally, check back in by November 9th for an EDA of these art crimes!
 
