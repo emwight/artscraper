@@ -9,17 +9,17 @@ Additionally, check back in by November 9th for an EDA of these art crimes!
 ## Data Description
 The `stolen_art.csv` file, created using the `artscrape.ipynb` code, has 400 observations with the following variables:
 
-**title:** Title of the stolen art piece
+ - **title:** Title of the stolen art piece
 
-**maker:** Creator of said art piece, ranging from specific people to countries
+ - **maker:** Creator of said art piece, ranging from specific people to countries
 
-**crimeCategory:** General type of art piece stolen, such as painting, sculpture, and book
+ - **crimeCategory:** General type of art piece stolen, such as painting, sculpture, and book
 
-**materials:** Within each general category, the materials used to make the art piece. Painting, for example, includes oil paint, board, canvas, and wood
+ - **materials:** Within each general category, the materials used to make the art piece. Painting, for example, includes oil paint, board, canvas, and wood
 
-**period:** The century the art piece was created
+ - **period:** The century the art piece was created
 
-**size:** Quantitative size of the art piece
+ - **size:** Quantitative size of the art piece
 
-**units:** Whether the size is a measure of length (inches), area (square inches), or volume (cubic inches)
+ - **units:** Whether the size is a measure of length (inches), area (square inches), or volume (cubic inches)
 
