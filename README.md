@@ -2,22 +2,24 @@
 This repository contains code used to collect and clean data from the [FBI art crimes API](https://api.fbi.gov/docs#!/) and the resulting dataset. All information obtained from the API is public and can also be accessed through the [National Stolen Art File](https://www.fbi.gov/investigate/violent-crime/art-theft/national-stolen-art-file).
 
 ## Collection and Cleaning Process
-I randomly sampled pages through API created the initial dataset, then went through extensive cleaning to create the stolen_art csv. For a more extensive explanation of the process, see my blog post!(ADD LINK)
+I randomly sampled pages through API created the initial dataset, then went through extensive cleaning to create the stolen_art csv. For a more extensive explanation of the process, see [my blog post](https://emwight.github.io/stat386-projects/2022/10/19/Last-Seen-the-FBI-API-for-Art-Crimes.html)!
 
 Additionally, check back in by November 9th for an EDA of these art crimes!
 
 ## Data Description
-**title:** Title of the stolen art piece
+The `stolen_art.csv` file, created using the `artscrape.ipynb` code, has 400 observations with the following variables:
 
-**maker:** Creator of said art piece, ranging from specific people to countries
+ - **title:** Title of the stolen art piece
 
-**crimeCategory:** General type of art piece stolen, such as painting, sculpture, and book
+ - **maker:** Creator of said art piece, ranging from specific people to countries
 
-**materials:** Within each general category, the materials used to make the art piece. Painting, for example, includes oil paint, board, canvas, and wood
+ - **crimeCategory:** General type of art piece stolen, such as painting, sculpture, and book
 
-**period:** The century the art piece was created
+ - **materials:** Within each general category, the materials used to make the art piece. Painting, for example, includes oil paint, board, canvas, and wood
 
-**size:** Quantitative size of the art piece
+ - **period:** The century the art piece was created
 
-**units:** Whether the size is a measure of length (inches), area (square inches), or volume (cubic inches)
+ - **size:** Quantitative size of the art piece
+
+ - **units:** Whether the size is a measure of length (inches), area (square inches), or volume (cubic inches)
 
