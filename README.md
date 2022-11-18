@@ -8,11 +8,13 @@ I randomly sampled pages through API created the initial dataset, then went thro
 
  - **API**: While I originally thought that there were 50 max pieces per page, and asking the API for 25 pieces would sample the first 25 pieces from that page of 50, I discovered that the number of pieces requested determined how long the pages were and how many pages there were in total. In other words, if there were 30 pages of 50 pieces each, asking the API for 25 pieces would increase the number of pages to 60. This was corrected in my new code to get a more random and representative sample of pages.
 
- - **Categories:** General changes were made to reduce the number of categories for each quantitative variable. One major change was changing all categories with 5 or fewer cases to "other"
+ - **Categories**: General changes were made to reduce the number of categories for each quantitative variable, namely `maker`, `crimeCategory`, and `materials`. One major change was changing all categories with 5 or fewer cases to "other"
 
  - **materials**: To improve grouping, this variable was split into two variables as explained in the New Data Description below
+
+ - **period**: To avoid redundancy, "17th century," etc., was changed to "17th" and moved to a `century` column
  
- - **size and units**: The pattern of "Diameter: 2" to "3.14" was correct mathematically, but didn't account for the dimensional move from length to area. This was changed to "3.14 x 1" to preserve the 2D measurement
+ - **size and units**: The pattern of "Diameter: 2" to "3.14" was correct mathematically, but didn't account for the dimensional move from length to area. This was changed to "3.14 x 1" to preserve the 2D measurement. Inches were also converted to feet for better-scaled graphs and PEMDAS order of calculations corrected
 
 ## New Data Description
 The `stolen_art_new.csv` file, created using the `artscrape_new.ipynb` code, has 1000 observations with the following variables:
@@ -27,7 +29,7 @@ The `stolen_art_new.csv` file, created using the `artscrape_new.ipynb` code, has
  
  - **numMaterials:** The total number of materials used to create each piece
 
- - **period:** The century the art piece was created
+ - **century:** The century the art piece was created
 
  - **size:** Quantitative size of the art piece
 
