@@ -2,7 +2,7 @@
 This repository contains code used to collect and clean data from the [FBI art crimes API](https://api.fbi.gov/docs#!/) and the resulting dataset. All information obtained from the API is public and can also be accessed through the [National Stolen Art File](https://www.fbi.gov/investigate/violent-crime/art-theft/national-stolen-art-file).
 
 ## Collection and Cleaning Process
-I randomly sampled pages through API created the initial dataset, then went through extensive cleaning to create the stolen_art csv. For a more extensive explanation of the process, see [my blog post](https://emwight.github.io/stat386-projects/2022/10/19/Last-Seen-the-FBI-API-for-Art-Crimes.html)! I also cleaned a new dataset with more observations for [this EDA](https://emwight.github.io/stat386-projects/), with major changes to my process documented below.
+I randomly sampled pages through API created the initial dataset, then went through extensive cleaning to create the stolen_art csv. For a more extensive explanation of the process, see [my blog post](https://emwight.github.io/stat386-projects/2022/10/19/Last-Seen-the-FBI-API-for-Art-Crimes.html)! I also cleaned a new dataset with more observations for [this EDA](https://emwight.github.io/stat386-projects/2022/11/18/a-museum-walk-through-stolen-art-data.html), with major changes to my process documented below.
 
 ### Changes to Data Cleaning Process Since Blog Post
 
